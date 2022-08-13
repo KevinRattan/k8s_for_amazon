@@ -17,7 +17,7 @@ spec:
        ver: v1.0
    spec:
      containers:
-     - image: gcr.io/kr-test-k8s/events-website:v1.0
+     - image: krattan/events-website:v1.0
        name: events-web
        ports:
        - containerPort: 8080
